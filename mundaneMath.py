@@ -6,4 +6,4 @@ def main():
     return summ
 
 if __name__ == '__main__':
-    print('The sum of all even numbers between 1 and 100 is %s.' % (summ))
+    print('The sum of all even numbers between 1 and 100 is %s.' % (main()))
