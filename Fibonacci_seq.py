@@ -28,7 +28,7 @@ def main():
         start_time = time.time()
         print('The Fibonacci sequence to the nth number is %s' % (Fibonacci_seq_Nth(n)))
         print('The Fibonacci sequence to that number is %s' % (Fibonacci_seq_to_N(n)))
-        print('This program took %d seconds to finish.' % (round(time.time() - start_time, 3)))
+        print('This program took %s seconds to finish.' % (round(time.time() - start_time, 3)))
 
 
 if __name__ == '__main__':
